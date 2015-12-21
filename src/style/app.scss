@@ -1,0 +1,15 @@
+$blue: #3bbfce;
+$margin: 16px;
+
+div.coordinates {
+    height: 100px;
+    ul {
+      width: 10%;
+    }
+}
+
+.content_navigation {
+    border-color: $blue;
+    color: darken($blue, 10%);
+}
+
