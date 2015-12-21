@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/nk232806338/CodeCommentsGraphGenerator/issues"
   },
-  "homepage": "https://github.com/nk232806338/CodeCommentsGraphGenerator#readme"
+  "homepage": "https://github.com/nk232806338/CodeCommentsGraphGenerator#readme",
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "webpack": "^1.12.9"
+  }
 }
