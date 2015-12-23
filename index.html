@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="./style/default.css">
-    <script src="./build/bundle.js"></script>
 </head>
 <body>
+    <div id="content"></div>
 
     <div class="tool-bar-wrapper">
         <ul>
-            <li>-</li>
-            <li>+</li>
-            <li>|</li>
+            <li data-sign="minus">-</li>s
+            <li data-sign="plus">+</li>
+            <li data-sign="pipe">|</li>
         </ul>
     </div>
 
@@ -20,15 +19,24 @@
     <div class="painting-content-wrapper">
 
         <div class="coordinates">
+            <section class="plus"><em>+</em></section>
+            <section class="minus"><em>—</em></section>
+            <section class="minus"><em>—</em></section>
+            <section class="minus"><em>—</em></section>
+            <section class="minus"><em>—</em></section>
+            <section class="minus"><em>+</em></section>
+
+            <section><em>|</em></section>
             <section></section>
             <section></section>
             <section></section>
             <section></section>
-            <section></section>
-            <section></section>
+            <section><em>|</em></section>
         </div>
 
     </div>
 
 </body>
+<script src="./build/bundle.js"></script>
+
 </html>

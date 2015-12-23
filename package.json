@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nk232806338/CodeCommentsGraphGenerator#readme",
   "devDependencies": {
+    "jsx-loader": "^0.13.2",
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "webpack": "^1.12.9"

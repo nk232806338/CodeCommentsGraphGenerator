@@ -13,3 +13,34 @@ div.coordinates {
     color: darken($blue, 10%);
 }
 
+.painting-content-wrapper {
+    .coordinates {
+        width: 73px;
+        section {
+            position: relative;
+            float: left;
+            width: 10px;
+            height: 20px;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+            em {
+                font-style: normal;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate3d(-50%, -50%, 0);
+            }
+            &.plus {
+                em {
+                }
+            }
+            &.minus {
+                em {
+                    width: 80%;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
